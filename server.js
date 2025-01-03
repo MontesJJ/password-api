@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const passwordRoutes = require('./routes/passwordRoutes');
 
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 
 // Middlewares
 app.use(cors());
